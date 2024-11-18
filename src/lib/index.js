@@ -1,0 +1,1 @@
+export { default as TinyPDF } from './TinyPDF.svelte';

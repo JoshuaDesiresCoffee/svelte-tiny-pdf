@@ -1,0 +1,32 @@
+# Development and build files
+node_modules/
+.svelte-kit/
+build/
+dist/
+
+# Configuration files
+.npmignore
+.eslintrc
+.prettierrc
+svelte.config.js
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# Test and CI files
+test/
+.github/
+.circleci/
+.travis.yml
+
+# Misc
+CONTRIBUTING.md
+CHANGELOG.md
