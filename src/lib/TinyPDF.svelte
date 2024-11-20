@@ -2,8 +2,9 @@
     import { onMount } from "svelte";
     import { GlobalWorkerOptions, getDocument } from "pdfjs-dist";
     import "pdfjs-dist/web/pdf_viewer.css";
-    import workerSrc from "pdfjs-dist/build/pdf.worker.mjs?url";
     import * as pdfjs from "pdfjs-dist/web/pdf_viewer.mjs";
+
+    let workerSrc = "https://unpkg.com/pdfjs-dist@4.8.69/build/pdf.worker.min.mjs";
 
     let container;
     let pdfDocument;
