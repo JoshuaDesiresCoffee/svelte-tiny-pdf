@@ -2,6 +2,11 @@
     "name": "svelte-tiny-pdf",
     "version": "1.0.1",
     "description": "A tiny PDF viewer for Svelte",
+    "homepage": "https://github.com/JoshuaDesiresCoffee/svelte-tiny-pdf",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JoshuaDesiresCoffee/svelte-tiny-pdf.git"
+    },
     "main": "./dist/index.js",
     "module": "./dist/index.js",
     "svelte": "./dist/index.js",
