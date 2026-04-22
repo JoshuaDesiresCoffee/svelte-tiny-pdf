@@ -149,20 +149,21 @@
 
 <div
     bind:this={container}
-    class="pdfViewer"
+    class="tinyPdfContainer"
     class:innerscroll={config.innerscroll}
     style={config.style}
 >
-    <div></div>
+    <div class="pdfViewer"></div>
 </div>
 
 <style>
-    .pdfViewer {
-        width: 100%;
+    .tinyPdfContainer {
         position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
     }
     .innerscroll {
-        height: 100%;
         overflow: auto;
     }
 </style>

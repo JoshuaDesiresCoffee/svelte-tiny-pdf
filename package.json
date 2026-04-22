@@ -19,10 +19,10 @@
     },
     "scripts": {
         "build": "svelte-package",
-        "dev": "svelte-package -w",
-        "prepublishOnly": "npm run build",
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "check": "svelte-check"
+        "prepublishOnly": "svelte-package",
+        "check": "svelte-check",
+        "dev": "vite dev",
+        "preview": "vite preview"
     },
     "keywords": [
         "svelte",
@@ -46,8 +46,12 @@
         "pdfjs-dist": "^5.6.205"
     },
     "devDependencies": {
+        "@sveltejs/adapter-auto": "^7.0.1",
+        "@sveltejs/kit": "^2.57.1",
         "@sveltejs/package": "^2.5.7",
+        "@sveltejs/vite-plugin-svelte": "^5.1.1",
         "svelte": "^5.55.4",
-        "svelte-check": "^4.4.6"
+        "svelte-check": "^4.4.6",
+        "vite": "^6.4.2"
     }
 }

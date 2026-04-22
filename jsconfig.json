@@ -8,8 +8,5 @@
         "checkJs": true,
         "esModuleInterop": true
     },
-    "include": [
-        "src/**/*.js", 
-        "src/**/*.svelte"
-    ]
+    "include": ["src/**/*.js", "src/**/*.svelte"]
 }

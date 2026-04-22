@@ -4,11 +4,15 @@ node_modules/
 build/
 dist/
 
+# Local dev playground (not published)
+playground/
+svelte.config.js
+vite.config.js
+
 # Configuration files
 .npmignore
 .eslintrc
 .prettierrc
-svelte.config.js
 
 # IDE and editor files
 .vscode/
