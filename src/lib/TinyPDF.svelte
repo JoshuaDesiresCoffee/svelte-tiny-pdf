@@ -4,23 +4,24 @@
     import "pdfjs-dist/web/pdf_viewer.css";
     import * as pdfjs from "pdfjs-dist/web/pdf_viewer.mjs";
 
-    let {
-        config = {
-            url: "",
-            data: null,
-            scale: {
-                initial: 1,
-                step: 0.2,
-                min: 0.4,
-                max: 2
-            },
-            innerscroll: true,
-            removeBorders: false,
-            style: "",
-            workerSrc: "",
-            workerPort: null
-        }
-    } = $props();
+    const defaults = {
+        url: "",
+        data: null,
+        scale: { initial: 1, step: 0.2, min: 0.4, max: 2 },
+        innerscroll: true,
+        removeBorders: false,
+        style: "",
+        workerSrc: "",
+        workerPort: null
+    };
+
+    let { config: userConfig = {} } = $props();
+
+    const config = $derived({
+        ...defaults,
+        ...userConfig,
+        scale: { ...defaults.scale, ...(userConfig.scale ?? {}) }
+    });
 
     let container;
     let pdfDocument;
