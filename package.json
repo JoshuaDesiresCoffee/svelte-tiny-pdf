@@ -1,6 +1,6 @@
 {
     "name": "svelte-tiny-pdf",
-    "version": "2.0.0",
+    "version": "2.0.2",
     "description": "A tiny PDF viewer for Svelte",
     "homepage": "https://github.com/JoshuaDesiresCoffee/svelte-tiny-pdf",
     "repository": {
