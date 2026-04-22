@@ -1,6 +1,6 @@
 {
     "name": "svelte-tiny-pdf",
-    "version": "1.0.2",
+    "version": "2.0.0",
     "description": "A tiny PDF viewer for Svelte",
     "homepage": "https://github.com/JoshuaDesiresCoffee/svelte-tiny-pdf",
     "repository": {
@@ -40,14 +40,14 @@
         "**/*.css"
     ],
     "peerDependencies": {
-        "svelte": "^3.55.0 || ^4.0.0"
+        "svelte": "^5.0.0"
     },
     "dependencies": {
-        "pdfjs-dist": "^4.7.76"
+        "pdfjs-dist": "^5.6.205"
     },
     "devDependencies": {
-        "@sveltejs/package": "^2.3.7",
-        "svelte": "^4.2.19",
-        "svelte-check": "^4.0.9"
+        "@sveltejs/package": "^2.5.7",
+        "svelte": "^5.55.4",
+        "svelte-check": "^4.4.6"
     }
 }
