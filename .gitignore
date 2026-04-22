@@ -27,7 +27,6 @@ yarn-error.log
 
 # Test and CI files
 test/
-.github/
 .circleci/
 .travis.yml
 
